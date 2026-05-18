@@ -1,24 +1,8 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "index.html",
-      "use": "@vercel/static"
-    }
-  ],
+  "buildCommand": null,
+  "devCommand": "",
   "framework": null,
-  "installCommand": "",
-  "buildCommand": "",
-  "outputDirectory": ".",
-  "routes": [
-    {
-      "src": "/case-studies/(.*)",
-      "dest": "/case-studies/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
-    }
-  ],
-  "public": true
+  "installCommand": null,
+  "outputDirectory": "."
 }
