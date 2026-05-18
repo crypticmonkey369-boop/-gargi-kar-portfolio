@@ -1,16 +1,65 @@
-# React + Vite
+# Gargi Kar Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A premium, futuristic portfolio for Gargi Kar, an AI and Automation Expert.
 
-Currently, two official plugins are available:
+## 🚀 Deployment Guide
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Deploy to Vercel (Recommended)
 
-## React Compiler
+#### Option 1: Via GitHub Integration (Easiest)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. **Go to**: https://vercel.com/new
+2. **Import Git Repository**: Select your GitHub repository
+3. **Configure Project**:
+   - **Framework Preset**: `Other`
+   - **Build Command**: (leave empty)
+   - **Output Directory**: `.` (dot, meaning root directory)
+4. **Click Deploy**
 
-## Expanding the ESLint configuration
+Your site will be live at: `https://[project-name].vercel.app`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+#### Option 2: Via Vercel CLI
+
+```bash
+# Install Vercel CLI globally
+npm i -g vercel
+
+# Login to Vercel
+vercel login
+
+# Deploy from project directory
+vercel --prod
+```
+
+### Project Structure
+
+```
+project04/
+├── index.html              # Main portfolio page
+├── style.css               # Main styles
+├── script.js               # Interactions & animations
+├── gargikar_image.png      # Hero image
+├── vercel.json             # Vercel configuration
+├── package.json            # Project metadata
+├── case-studies/           # Individual case study pages
+│   ├── ghost-scraper.html
+│   ├── cognitive-outreach.html
+│   ├── profit-pulse.html
+│   ├── autonomous-release-architect.html
+│   ├── algorithmic-growth-engine.html
+│   ├── data-whisperer.html
+│   └── case-study-shared.css
+```
+
+## 🎨 Features
+
+- **Futuristic Design**: Matte black background with mint green accents
+- **Agentic Capabilities**: Interactive orbiting nodes visualization
+- **Case Studies**: 6 detailed project breakdowns
+- **Responsive**: Fully responsive design
+- **Animations**: Parallax scrolling, hover effects, fade-in animations
+
+## 📞 Contact
+
+- **Phone**: +91 87775 47678
+- **Email**: crypticmonkey369@gmail.com
