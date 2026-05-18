@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Ghost Scraper | Gargi Kar</title>
+    <link rel="stylesheet" href="case-study-shared.css">
+</head>
+<body>
+    <div class="product-grid"></div>
+    <nav class="case-study-nav">
+        <a href="../index.html#projects" class="case-study-nav-back">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+            Projects
+        </a>
+        <span class="case-study-nav-logo">GK</span>
+        <a href="../index.html#contact" class="case-study-nav-cta">Connect</a>
+    </nav>
+
+    <header class="case-study-hero">
+        <div class="case-study-hero-category">
+            <span class="case-study-hero-badge">Intelligence Automation</span>
+            <span class="case-study-hero-badge">Competitor Intelligence</span>
+        </div>
+        <h1 class="case-study-hero-title">The Ghost Scraper</h1>
+        <p class="case-study-hero-subtitle">
+            Breaking the "Fragility Barrier" in Competitor Intelligence. Vision-based price tracking 
+            that renders code obfuscation completely irrelevant.
+        </p>
+    </header>
+
+    <main class="case-study-container">
+        <section class="case-study-section">
+            <h2 class="case-study-section-title">The Business Friction</h2>
+            <p class="case-study-section-text">
+                For most e-commerce brands, competitor price tracking is a "cat-and-mouse" game. Traditional 
+                scrapers rely on CSS Selectors—the underlying code of a website. The moment a competitor changes 
+                a single line of code or shifts a button two pixels to the left, the scraper breaks.
+            </p>
+            <p class="case-study-section-text">
+                Our client was losing 12+ hours a week manually fixing broken scripts and verifying data across 
+                12 different dynamic storefronts. They weren't just losing time; they were losing the ability to 
+                price-match in real-time, resulting in lost sales.
+            </p>
+        </section>
+
+        <section class="case-study-section">
+            <h2 class="case-study-section-title">The "Aha!" Insight</h2>
+            <p class="case-study-section-text" style="font-size: 1.5rem; color: var(--color-accent); font-family: var(--font-display); line-height: 1.4;">
+                "If a human eye can see the price, an AI eye can too."
+            </p>
+            <p class="case-study-section-text">
+                Instead of building a script that looks for code, I built an agent that looks for patterns. 
+                By moving away from "Code-Dependency" and moving toward "Visual-Context," we rendered the 
+                competitor's anti-scraping updates completely irrelevant.
+            </p>
+        </section>
+
+        <div class="architecture-diagram">
+            <h3 class="architecture-diagram-title">The Architecture</h3>
+            <div class="architecture-flow">
+                <div class="architecture-step">
+                    <div class="architecture-step-number">1</div>
+                    <div class="architecture-step-content">
+                        <h4 class="architecture-step-title">Visual Capture</h4>
+                        <p class="architecture-step-desc">Triggers a headless browser to take high-resolution "segment snapshots" of competitor product pages</p>
+                    </div>
+                </div>
+                <div class="architecture-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></div>
+                <div class="architecture-step">
+                    <div class="architecture-step-number">2</div>
+                    <div class="architecture-step-content">
+                        <h4 class="architecture-step-title">Vision-Reasoning</h4>
+                        <p class="architecture-step-desc">Gemini 1.5 Flash "scans" the image to identify price, currency, and stock status based on visual hierarchy</p>
+                    </div>
+                </div>
+                <div class="architecture-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></div>
+                <div class="architecture-step">
+                    <div class="architecture-step-number">3</div>
+                    <div class="architecture-step-content">
+                        <h4 class="architecture-step-title">Data Validation</h4>
+                        <p class="architecture-step-desc">Extracted data is cross-referenced against the internal SKU library and pushed directly into the pricing engine</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="case-study-section">
+            <h2 class="case-study-section-title">The Impact (Monthly ROI)</h2>
+            <div class="comparison-table">
+                <table style="width:100%; border-collapse:collapse;">
+                    <thead>
+                        <tr><th style="text-align:left; padding:1rem 1.5rem; color:var(--color-accent); border-bottom:1px solid var(--color-border);">Metric</th><th style="text-align:left; padding:1rem 1.5rem; color:var(--color-accent); border-bottom:1px solid var(--color-border);">Before</th><th style="text-align:left; padding:1rem 1.5rem; color:var(--color-accent); border-bottom:1px solid var(--color-border);">After</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td style="padding:1rem 1.5rem; color:var(--color-text-muted); border-bottom:1px solid var(--color-border);">Operational Labor</td><td style="padding:1rem 1.5rem; color:var(--color-text-muted); border-bottom:1px solid var(--color-border);">45 Hours / Month</td><td style="padding:1rem 1.5rem; color:var(--color-accent); border-bottom:1px solid var(--color-border);">&lt; 1 Hour</td></tr>
+                        <tr><td style="padding:1rem 1.5rem; color:var(--color-text-muted); border-bottom:1px solid var(--color-border);">Data Accuracy</td><td style="padding:1rem 1.5rem; color:var(--color-text-muted); border-bottom:1px solid var(--color-border);">82% (Human Error)</td><td style="padding:1rem 1.5rem; color:var(--color-accent); border-bottom:1px solid var(--color-border);">99.4%</td></tr>
+                        <tr><td style="padding:1rem 1.5rem; color:var(--color-text-muted); border-bottom:1px solid var(--color-border);">Fixed Overhead</td><td style="padding:1rem 1.5rem; color:var(--color-text-muted); border-bottom:1px solid var(--color-border);">$3,200 (VA)</td><td style="padding:1rem 1.5rem; color:var(--color-accent); border-bottom:1px solid var(--color-border);">$0</td></tr>
+                        <tr><td style="padding:1rem 1.5rem; color:var(--color-text-muted); border-bottom:1px solid var(--color-border);">Strategic Agility</td><td style="padding:1rem 1.5rem; color:var(--color-text-muted); border-bottom:1px solid var(--color-border);">Weekly Adjustments</td><td style="padding:1rem 1.5rem; color:var(--color-accent); border-bottom:1px solid var(--color-border);">Hourly Dynamic Pricing</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <blockquote class="testimonial">
+            <p class="testimonial-text">
+                We didn't just automate a task; we built a competitive moat. The client now has a 100% reliable 
+                stream of competitor data that is physically impossible for their rivals to 'block' via code obfuscation.
+            </p>
+            <div class="testimonial-author">
+                <div class="testimonial-avatar">E</div>
+                <div class="testimonial-info">
+                    <span class="testimonial-name">E-Commerce Founder</span>
+                    <span class="testimonial-role">12-Store Operation, $2M ARR</span>
+                </div>
+            </div>
+        </blockquote>
+
+        <div class="tech-stack">
+            <span class="tech-tag">Gemini 1.5 Flash</span>
+            <span class="tech-tag">n8n</span>
+            <span class="tech-tag">Puppeteer</span>
+            <span class="tech-tag">Google Cloud Vision</span>
+        </div>
+    </main>
+
+    <section class="case-study-cta">
+        <div class="case-study-cta-bg">LET'S BUILD</div>
+        <h2>Ready to eliminate your fragile workflows?</h2>
+        <p>Let's discuss how vision-based automation can make your competitive intelligence bulletproof.</p>
+        <a href="../index.html#contact" class="btn">Start the Conversation</a>
+    </section>
+
+    <section class="next-project">
+        <p class="next-project-label">Next Case Study</p>
+        <h2 class="next-project-title">The Cognitive Outreach Engine</h2>
+        <a href="cognitive-outreach.html" class="next-project-link">
+            Continue Reading
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+    </section>
+
+    <footer class="case-study-footer">
+        <p>2025 Gargi Kar. Architecting Autonomy.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gargi Kar | Architecting Autonomy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-brand">
+            <span class="nav-brand-text">GK</span>
+        </div>
+        <div class="nav-links">
+            <a href="#stack" class="nav-link">Stack</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#workflow" class="nav-link">Workflow</a>
+            <a href="#contact" class="nav-link nav-cta">Connect</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-headline">
+                    <span class="hero-headline-line">ARCHITECTING</span>
+                    <span class="hero-headline-line">AUTONOMY<span class="hero-accent">.</span></span>
+                </h1>
+                <p class="hero-subtext">
+                    I design self-healing AI systems and agentic workflows that turn operational 
+                    bottlenecks into competitive advantages.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <span class="btn-glow"></span>
+                        Connect
+                    </a>
+                    <a href="#" class="btn btn-ghost">Read the Thesis</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-image-container">
+                    <img src="gargikar_image.png" 
+                         alt="Gargi Kar - AI & Automation Expert" 
+                         class="hero-image">
+                    <!-- Neural network effect -->
+                    <div class="neural-network" id="neuralNetwork"></div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Agentic Capabilities (Replaces Stack) -->
+    <section class="capabilities" id="capabilities">
+        <div class="section-header">
+            <span class="section-number">01</span>
+            <h2 class="section-title">Agentic Capabilities</h2>
+        </div>
+        <div class="capabilities-grid">
+            <!-- Orbiting Nodes Visualization -->
+            <div class="orbit-system">
+                <div class="orbit-center">
+                    <span class="orbit-center-text">AGENTS</span>
+                </div>
+                <div class="orbit-ring orbit-ring--1">
+                    <div class="orbit-node" data-capability="Intelligence">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                        <span class="orbit-label">Intelligence</span>
+                    </div>
+                </div>
+                <div class="orbit-ring orbit-ring--2">
+                    <div class="orbit-node" data-capability="Vision">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                            <circle cx="12" cy="12" r="3"/>
+                        </svg>
+                        <span class="orbit-label">Vision</span>
+                    </div>
+                </div>
+                <div class="orbit-ring orbit-ring--3">
+                    <div class="orbit-node" data-capability="Voice">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+                            <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+                            <line x1="12" y1="19" x2="12" y2="23"/>
+                            <line x1="8" y1="23" x2="16" y2="23"/>
+                        </svg>
+                        <span class="orbit-label">Voice</span>
+                    </div>
+                </div>
+                <div class="orbit-ring orbit-ring--4">
+                    <div class="orbit-node" data-capability="Finance">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="12" y1="1" x2="12" y2="23"/>
+                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                        </svg>
+                        <span class="orbit-label">Finance</span>
+                    </div>
+                </div>
+                <div class="orbit-ring orbit-ring--5">
+                    <div class="orbit-node" data-capability="Data">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <ellipse cx="12" cy="5" rx="9" ry="3"/>
+                            <path d="M21 12c0 5-9 9-9 9s-9-4-9-9"/>
+                            <path d="M3 5v14"/>
+                        </svg>
+                        <span class="orbit-label">Data</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Capability Cards -->
+            <div class="capability-cards">
+                <div class="capability-card" data-tilt>
+                    <div class="capability-card-header">
+                        <span class="capability-card-number">01</span>
+                        <h3 class="capability-card-title">Self-Healing Operations</h3>
+                    </div>
+                    <p class="capability-card-desc">Autonomous agents that detect, diagnose, and repair workflow failures without human intervention.</p>
+                    <div class="capability-card-stats">
+                        <div class="capability-stat">
+                            <span class="capability-stat-value">99.4%</span>
+                            <span class="capability-stat-label">Uptime</span>
+                        </div>
+                        <div class="capability-stat">
+                            <span class="capability-stat-value">&lt;1s</span>
+                            <span class="capability-stat-label">Recovery</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="capability-card" data-tilt>
+                    <div class="capability-card-header">
+                        <span class="capability-card-number">02</span>
+                        <h3 class="capability-card-title">Multi-Modal Intelligence</h3>
+                    </div>
+                    <p class="capability-card-desc">Vision, voice, and text processing pipelines that understand context across any medium.</p>
+                    <div class="capability-card-stats">
+                        <div class="capability-stat">
+                            <span class="capability-stat-value">3x</span>
+                            <span class="capability-stat-label">Speed</span>
+                        </div>
+                        <div class="capability-stat">
+                            <span class="capability-stat-value">95%</span>
+                            <span class="capability-stat-label">Accuracy</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="capability-card" data-tilt>
+                    <div class="capability-card-header">
+                        <span class="capability-card-number">03</span>
+                        <h3 class="capability-card-title">Autonomous Scaling</h3>
+                    </div>
+                    <p class="capability-card-desc">Workflows that automatically adapt to demand, optimizing resources in real-time.</p>
+                    <div class="capability-card-stats">
+                        <div class="capability-stat">
+                            <span class="capability-stat-value">10x</span>
+                            <span class="capability-stat-label">Scale</span>
+                        </div>
+                        <div class="capability-stat">
+                            <span class="capability-stat-value">90%</span>
+                            <span class="capability-stat-label">Cost Cut</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="projects" id="projects">
+        <div class="section-header">
+            <span class="section-number">02</span>
+            <h2 class="section-title">Featured Projects</h2>
+        </div>
+        <div class="projects-grid">
+            <!-- Project 1: The Ghost Scraper -->
+            <article class="project-card" data-scroll-reveal>
+                <div class="project-visual">
+                    <div class="project-mockup">
+                        <div class="mockup-screen">
+                            <div class="mockup-content">
+                                <div class="mockup-header"></div>
+                                <div class="mockup-items">
+                                    <div class="mockup-item"></div>
+                                    <div class="mockup-item"></div>
+                                    <div class="mockup-item"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <div class="project-meta">
+                        <span class="project-category">Intelligence Automation</span>
+                        <span class="project-status project-status--live">Live System</span>
+                    </div>
+                    <h3 class="project-title">The Ghost Scraper</h3>
+                    <p class="project-description">
+                        Vision-based competitor intelligence that renders code obfuscation completely irrelevant. 
+                        Self-healing price monitoring with 99.4% accuracy across 12+ dynamic storefronts.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Gemini 1.5 Flash</span>
+                        <span class="tag">n8n</span>
+                        <span class="tag">Headless Browser</span>
+                    </div>
+                    <a href="case-studies/ghost-scraper.html" class="project-link">View Case Study</a>
+                </div>
+            </article>
+
+            <!-- Project 2: The Cognitive Outreach Engine -->
+            <article class="project-card" data-scroll-reveal>
+                <div class="project-visual">
+                    <div class="project-mockup">
+                        <div class="mockup-screen">
+                            <div class="mockup-content">
+                                <div class="mockup-chart">
+                                    <div class="chart-bar" style="height: 30%"></div>
+                                    <div class="chart-bar" style="height: 70%"></div>
+                                    <div class="chart-bar" style="height: 90%"></div>
+                                    <div class="chart-bar" style="height: 45%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <div class="project-meta">
+                        <span class="project-category">Sales Automation</span>
+                        <span class="project-status project-status--live">Live System</span>
+                    </div>
+                    <h3 class="project-title">The Cognitive Outreach Engine</h3>
+                    <p class="project-description">
+                        Autonomous enrichment agent that researches leads at 100x human speed. 
+                        Transforms cold outreach from spam to partnership through contextual personalization.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Claude 3.5 Sonnet</span>
+                        <span class="tag">LinkedIn API</span>
+                        <span class="tag">n8n</span>
+                    </div>
+                    <a href="case-studies/cognitive-outreach.html" class="project-link">View Case Study</a>
+                </div>
+            </article>
+
+            <!-- Project 3: The Profit Pulse -->
+            <article class="project-card" data-scroll-reveal>
+                <div class="project-visual">
+                    <div class="project-mockup">
+                        <div class="mockup-screen">
+                            <div class="mockup-content">
+                                <div class="mockup-metrics">
+                                    <div class="metric-circle">
+                                        <span class="metric-value">$47.2K</span>
+                                        <span class="metric-label">Net Profit</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <div class="project-meta">
+                        <span class="project-category">Financial Intelligence</span>
+                        <span class="project-status project-status--live">Live System</span>
+                    </div>
+                    <h3 class="project-title">The Profit Pulse</h3>
+                    <p class="project-description">
+                        Triple-channel financial reconciliation engine bridging Meta Ads, Shopify, 
+                        and Stripe into a single source of truth with daily executive briefings.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Shopify API</span>
+                        <span class="tag">Meta Ads API</span>
+                        <span class="tag">Slack</span>
+                    </div>
+                    <a href="case-studies/profit-pulse.html" class="project-link">View Case Study</a>
+                </div>
+            </article>
+
+            <!-- Project 4: The Autonomous Release Architect -->
+            <article class="project-card" data-scroll-reveal>
+                <div class="project-visual">
+                    <div class="project-mockup">
+                        <div class="mockup-screen">
+                            <div class="mockup-content">
+                                <div class="mockup-git">
+                                    <div class="git-branch">
+                                        <div class="git-commit"></div>
+                                        <div class="git-commit"></div>
+                                        <div class="git-commit"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <div class="project-meta">
+                        <span class="project-category">DevOps Automation</span>
+                        <span class="project-status project-status--live">Live System</span>
+                    </div>
+                    <h3 class="project-title">The Autonomous Release Architect</h3>
+                    <p class="project-description">
+                        AI-driven release agent sitting between GitHub and PM tools. Semantic commit analysis 
+                        with contextual documentation in human-readable language.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">GitHub API</span>
+                        <span class="tag">JIRA</span>
+                        <span class="tag">Slack</span>
+                    </div>
+                    <a href="case-studies/autonomous-release-architect.html" class="project-link">View Case Study</a>
+                </div>
+            </article>
+
+            <!-- Project 5: The Algorithmic Growth Engine -->
+            <article class="project-card" data-scroll-reveal>
+                <div class="project-visual">
+                    <div class="project-mockup">
+                        <div class="mockup-screen">
+                            <div class="mockup-content">
+                                <div class="mockup-thumbnails">
+                                    <div class="thumbnail"></div>
+                                    <div class="thumbnail"></div>
+                                    <div class="thumbnail"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <div class="project-meta">
+                        <span class="project-category">Content Optimization</span>
+                        <span class="project-status project-status--live">Live System</span>
+                    </div>
+                    <h3 class="project-title">The Algorithmic Growth Engine</h3>
+                    <p class="project-description">
+                        Autonomous SEO & Design agent treating virality as a math problem. Semantic trend crawling 
+                        with AI-generated thumbnails that boost CTR from 2% to 6.5%.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Midjourney</span>
+                        <span class="tag">YouTube API</span>
+                        <span class="tag">Google Trends</span>
+                    </div>
+                    <a href="case-studies/algorithmic-growth-engine.html" class="project-link">View Case Study</a>
+                </div>
+            </article>
+
+            <!-- Project 6: The Data Whisperer -->
+            <article class="project-card" data-scroll-reveal>
+                <div class="project-visual">
+                    <div class="project-mockup">
+                        <div class="mockup-screen">
+                            <div class="mockup-content">
+                                <div class="mockup-chart-line">
+                                    <svg viewBox="0 0 200 100" preserveAspectRatio="none">
+                                        <path d="M0,80 Q50,20 100,60 T200,30" fill="none" stroke="#82f4a1" stroke-width="2"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <div class="project-meta">
+                        <span class="project-category">Business Intelligence</span>
+                        <span class="project-status project-status--live">Live System</span>
+                    </div>
+                    <h3 class="project-title">The Data Whisperer</h3>
+                    <p class="project-description">
+                        Natural language semantic layer powered by n8n and NocoDB. Ask questions in plain English, 
+                        get boardroom-ready charts in 10 seconds.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Gemini 1.5 Pro</span>
+                        <span class="tag">NocoDB</span>
+                        <span class="tag">n8n</span>
+                    </div>
+                    <a href="case-studies/data-whisperer.html" class="project-link">View Case Study</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Workflow Section -->
+    <section class="workflow" id="workflow">
+        <div class="section-header">
+            <span class="section-number">03</span>
+            <h2 class="section-title">The Process</h2>
+        </div>
+        <div class="workflow-grid">
+            <div class="workflow-step" data-scroll-reveal>
+                <div class="workflow-number">01</div>
+                <div class="workflow-content">
+                    <h3 class="workflow-title">Audit</h3>
+                    <p class="workflow-description">Identify bottlenecks and map operational friction points across all workflows.</p>
+                </div>
+                <div class="workflow-arrow">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="workflow-step" data-scroll-reveal>
+                <div class="workflow-number">02</div>
+                <div class="workflow-content">
+                    <h3 class="workflow-title">Architect</h3>
+                    <p class="workflow-description">Build intelligent logic and self-healing automation loops with zero fragility.</p>
+                </div>
+                <div class="workflow-arrow">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="workflow-step" data-scroll-reveal>
+                <div class="workflow-number">03</div>
+                <div class="workflow-content">
+                    <h3 class="workflow-title">Optimize</h3>
+                    <p class="workflow-description">Deploy self-healing feedback loops that continuously improve performance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-bg-text">LET'S BUILD</div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h2 class="contact-title">Let's Connect</h2>
+                <p class="contact-subtitle">Ready to architect your autonomy? Let's discuss your next automation.</p>
+                <div class="contact-details">
+                    <a href="tel:+918777547678" class="contact-link contact-link--large">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.96.4 1.88.8 2.72a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.84.4 1.76.68 2.72.8a2 2 0 0 1 1.72 2V22z"/>
+                        </svg>
+                        <span>+91 87775 47678</span>
+                    </a>
+                    <a href="mailto:crypticmonkey369@gmail.com" class="contact-link contact-link--large">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="4" width="20" height="16" rx="2"/>
+                            <path d="M22 7l-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                        </svg>
+                        <span>crypticmonkey369@gmail.com</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-status">
+                <div class="status-dot"></div>
+                <span class="status-text">Gargi's Agents are Online</span>
+            </div>
+            <div class="footer-links">
+                <a href="#" class="footer-link">LinkedIn</a>
+                <a href="#" class="footer-link">GitHub</a>
+                <a href="#" class="footer-link">Twitter</a>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <span> 2025 Gargi Kar. All systems operational.</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Data Whisperer | Gargi Kar</title>
+    <link rel="stylesheet" href="case-study-shared.css">
+</head>
+<body>
+    <div class="product-grid"></div>
+    <nav class="case-study-nav">
+        <a href="../index.html#projects" class="case-study-nav-back">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+            Projects
+        </a>
+        <span class="case-study-nav-logo">GK</span>
+        <a href="../index.html#contact" class="case-study-nav-cta">Connect</a>
+    </nav>
+
+    <header class="case-study-hero">
+        <div class="case-study-hero-category">
+            <span class="case-study-hero-badge">Business Intelligence</span>
+            <span class="case-study-hero-badge">Natural Language</span>
+        </div>
+        <h1 class="case-study-hero-title">The Data Whisperer</h1>
+        <p class="case-study-hero-subtitle">
+            Breaking the "SQL Gatekeeper" with Natural Language BI. Ask questions in plain English—get 
+            boardroom-ready charts in 10 seconds.
+        </p>
+    </header>
+
+    <main class="case-study-container">
+        <section class="case-study-section">
+            <h2 class="case-study-section-title">The Information Embargo</h2>
+            <p class="case-study-section-text">
+                A D2C founder was "data-rich but insight-poor." Strategic questions required a 48-hour lag 
+                time while developers pulled SQL reports. The founder felt blind in meetings, and the developer 
+                felt like a "data puller."
+            </p>
+            <p class="case-study-section-text">
+                Every business question became a bottleneck. Not because the data didn't exist, but because 
+                accessing it required a technical middleman. Decision-making was slowed by the very systems 
+                meant to accelerate it.
+            </p>
+        </section>
+
+        <section class="case-study-section">
+            <h2 class="case-study-section-title">Talk to Your Data</h2>
+            <p class="case-study-section-text">
+                I engineered a Natural Language Semantic Layer using n8n and NocoDB, powered by Gemini 1.5 Pro. 
+                The founder can now "talk to their data" in plain English—and get answers in seconds, not days.
+            </p>
+        </section>
+
+        <div class="architecture-diagram">
+            <h3 class="architecture-diagram-title">The Semantic Layer</h3>
+            <div class="architecture-flow">
+                <div class="architecture-step">
+                    <div class="architecture-step-number">1</div>
+                    <div class="architecture-step-content">
+                        <h4 class="architecture-step-title">Natural Language Interface</h4>
+                        <p class="architecture-step-desc">Founder types a question in plain English directly into Slack</p>
+                    </div>
+                </div>
+                <div class="architecture-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></div>
+                <div class="architecture-step">
+                    <div class="architecture-step-number">2</div>
+                    <div class="architecture-step-content">
+                        <h4 class="architecture-step-title">Semantic SQL Generation</h4>
+                        <p class="architecture-step-desc">Agent analyzes database schema and writes a syntactically perfect SQL query instantly</p>
+                    </div>
+                </div>
+                <div class="architecture-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></div>
+                <div class="architecture-step">
+                    <div class="architecture-step-number">3</div>
+                    <div class="architecture-step-content">
+                        <h4 class="architecture-step-title">Instant Visualization</h4>
+                        <p class="architecture-step-desc">Returns a dynamic visual chart with a 2-sentence executive summary</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="case-study-section">
+            <h2 class="case-study-section-title">The Impact</h2>
+            <div class="metrics-wrapper">
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <div class="metric-card-value">15h+</div>
+                        <div class="metric-card-label">Founder Hours Saved</div>
+                        <div class="metric-card-context">No more back-and-forth emails clarifying data requests</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-card-value">10s</div>
+                        <div class="metric-card-label">Query Response Time</div>
+                        <div class="metric-card-context">Down from 48 hours to under 10 seconds</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-card-value">$4K+</div>
+                        <div class="metric-card-label">Monthly Savings</div>
+                        <div class="metric-card-context">Replaced the need for a part-time analyst</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <blockquote class="testimonial">
+            <p class="testimonial-text">
+                I used to feel like I was bothering my dev team. Now, I just ask the 'Data Whisperer' and I 
+                have a boardroom-ready chart in 10 seconds. It has completely removed the guesswork from our sessions.
+            </p>
+            <div class="testimonial-author">
+                <div class="testimonial-avatar">D2C</div>
+                <div class="testimonial-info">
+                    <span class="testimonial-name">D2C Founder</span>
+                    <span class="testimonial-role">Consumer Brand, $1M+ ARR</span>
+                </div>
+            </div>
+        </blockquote>
+
+        <div class="tech-stack">
+            <span class="tech-tag">Gemini 1.5 Pro</span>
+            <span class="tech-tag">NocoDB</span>
+            <span class="tech-tag">n8n</span>
+            <span class="tech-tag">Slack API</span>
+            <span class="tech-tag">PostgreSQL</span>
+        </div>
+    </main>
+
+    <section class="case-study-cta">
+        <div class="case-study-cta-bg">LET'S BUILD</div>
+        <h2>Ready to talk to your data?</h2>
+        <p>Let's build a natural language interface that turns your database into a conversational partner.</p>
+        <a href="../index.html#contact" class="btn">Start the Conversation</a>
+    </section>
+
+    <section class="next-project">
+        <p class="next-project-label">Back to Portfolio</p>
+        <h2 class="next-project-title">Explore All Projects</h2>
+        <a href="../index.html#projects" class="next-project-link">
+            View Portfolio
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+    </section>
+
+    <footer class="case-study-footer">
+        <p>2025 Gargi Kar. Architecting Autonomy.</p>
+    </footer>
+</body>
+</html>
